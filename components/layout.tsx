@@ -40,14 +40,6 @@ export default function Layout({
                     <>
                         <Link href="/">
                             <a>
-                                <Image
-                                    priority
-                                    src="/images/profile.jpeg"
-                                    className={utilStyles.borderCircle}
-                                    height={144}
-                                    width={144}
-                                    alt={name}
-                                />
                                 <h2 className={utilStyles.headingLg}>
                                     <Link href="/">
                                         <a className={utilStyles.colorInherit}>{name}</a>
