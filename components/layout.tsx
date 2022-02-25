@@ -44,8 +44,8 @@ export default function Layout({
                                     priority
                                     src="/images/profile.jpeg"
                                     className={utilStyles.borderCircle}
-                                    height={108}
-                                    width={108}
+                                    height={144}
+                                    width={144}
                                     alt={name}
                                 />
                                 <h2 className={utilStyles.headingLg}>
